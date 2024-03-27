@@ -79,8 +79,7 @@
     /* background-color: burlywood; */
     display: grid;
     grid-template-columns: auto auto;
-    grid-template-rows:0.5fr auto ;
-    height: 100%;
+    grid-template-rows:0.5fr 1fr ;
     align-items: center;
     width: 60%;
     padding: 5%;
