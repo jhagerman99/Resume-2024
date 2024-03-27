@@ -224,7 +224,7 @@
 #contact .page{
     background: linear-gradient(164deg, rgba(2,0,36,1) 23%, rgba(10,10,124,1) 52%, rgba(7,66,160,1) 75%, rgba(4,136,205,1) 96%);
     display: grid;
-    height: 60vh;
+    height: auto;
     grid-template-columns:1fr 1fr;
     grid-template-rows: 1fr;
     justify-items: center;
