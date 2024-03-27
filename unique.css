@@ -80,7 +80,7 @@
     display: grid;
     grid-template-columns: auto auto;
     grid-template-rows:0.5fr auto ;
-    height: auto;
+    height: 100%;
     align-items: center;
     width: 60%;
     padding: 5%;
