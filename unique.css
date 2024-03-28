@@ -47,12 +47,12 @@
     top: 50%;
     left: 45%;
     transform: translate(-50%, -50%);
-    /* background-color: #000000; */
     color: #fff;
     padding: 10px 20px;
     font-size: 3rem;
     text-align: start;
     font-weight: 900;
+    text-shadow: 2px 2px #000000;
 }
 
 .image-container .img-left {
@@ -73,6 +73,7 @@
     font-size: 3rem;
     text-align: end;
     font-weight: 900;
+    text-shadow: 2px 2px #000000;
 }
 
   .formArea{
