@@ -31,13 +31,13 @@
 .image-container {
     position: relative;
     display: inline-block;
-    width: 80%;
+    width: 100%;
 }
 
 .image-container .img-right {
     display: block;
     float: right;
-    width: 60%;
+    width: 50%;
     height: auto;
     padding: 2.5%;
 }
@@ -45,7 +45,7 @@
 .overlay-textR {
     position: absolute;
     top: 50%;
-    left: 37.5%;
+    left: 45%;
     transform: translate(-50%, -50%);
     /* background-color: #000000; */
     color: #fff;
@@ -58,7 +58,7 @@
 .image-container .img-left {
     display: block;
     float: left;
-    width: 60%;
+    width: 50%;
     height: auto;
     padding: 2.5%;
 }
@@ -66,7 +66,7 @@
 .overlay-textL {
     position: absolute;
     top: 50%;
-    left: 62.5%;
+    left: 55%;
     transform: translate(-50%, -50%);
     color: #fff;
     padding: 10px 20px;
