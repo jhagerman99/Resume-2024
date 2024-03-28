@@ -292,9 +292,6 @@
 #contact2 .box{
     width: 30%;
     height: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     gap: 3%;
     padding: 1%;
     margin-top: 2.5%;
@@ -344,4 +341,9 @@
     justify-content: end;
     gap: 5%;
     font-size: 12px;
+}
+@media (max-width: 1700px) {
+    #contact2 .box{
+        width: auto;
+    }
 }
