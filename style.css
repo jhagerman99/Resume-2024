@@ -101,13 +101,24 @@
     margin-left: -15%;
     margin-bottom: -1%;
 }
+
 #home .page div .cv{
     position: absolute;
     cursor:pointer;
     top: 45%;
-    right: 42.5%; 
+    right: 45%; 
     transition: all 1s;
-    width: 250px;
+    width: 220px;
+    z-index: 2;
+}
+
+#home .page div .cv2{
+    position: absolute;
+    cursor:pointer;
+    top: 40%;
+    right: 10%; 
+    transition: all 1s;
+    width: 150px;
     z-index: 2;
 }
 
@@ -115,6 +126,9 @@
     transform: scale(1.2);
 }
 
+#home .page div .cv2:hover{
+    transform: scale(1.2);
+}
 
 #about{
     width: 100%;
@@ -127,7 +141,7 @@
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto 1fr;
     padding:5%;
-    background: linear-gradient(146deg, rgba(2,0,36,1), rgba(10,10,124,1) , rgba(0,212,255,1) , rgba(255,255,255,1));
+    background: linear-gradient(157deg, rgba(2,0,36,1) 8%, rgba(9,9,121,1) 32%, rgba(0,212,255,1) 90%, rgba(196,245,255,1) 99%);
 }
 
 #about .page .box1{
@@ -142,6 +156,7 @@
 #about .page .box1 .text{
     padding-left: 15%;
     font-size: 1.75rem;
+    width: auto;
     height: auto;
 }
 #about .page .box{
@@ -172,7 +187,7 @@
 }
 
 #about .page .box .exp .dot .text{
-    font-size: 1.75rem;
+    font-size: 1.5rem;
 }
 
 #about .page .box .skill{
@@ -208,7 +223,9 @@
     grid-template-columns: 1fr;
     padding: 5%;
     height: 100%;
-    background: rgb(255,255,255);background: linear-gradient(146deg, rgba(255,255,255,1) 2%, rgba(0,212,255,1) 23%, rgba(10,10,124,1) 75%, rgba(2,0,36,1) 100%);
+    background: linear-gradient(31deg, rgba(2,0,36,1) 8%, rgba(9,9,121,1) 32%, rgba(0,212,255,1) 90%, rgba(196,245,255,1) 99%);
+    
+
 }
 #projects .page .header{
     letter-spacing: 10px;
@@ -233,10 +250,12 @@
 #contact .page .text{
     /* background-color: #272738; */
     width: 60%;
+    /* height: auto; */
     font-size: 2rem;
     float: right;
-    margin-left: 50%;
+    margin-left: 40%;
     align-content: center;
+    padding: 5%;
     /* margin: 5%; */
 }
 
@@ -276,12 +295,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 2%;
+    gap: 3%;
     padding: 1%;
     margin-top: 2.5%;
     background-color: white;
     color:#272738;
-    font-size: 3rem;
+    font-size: 2.5rem;
     border-radius: 1.5rem;
 }
 #footer{    
