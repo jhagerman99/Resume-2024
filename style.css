@@ -351,3 +351,73 @@
         padding-right: 5%;
     }
 }
+@media (max-width: 1200px) {
+    #home .page div .pic{
+        width: 400px;
+        margin-bottom: -12%;
+    }
+    #home .page div .cv{
+        top: 45%;
+        right: 45%; 
+        width: 150px;
+    }
+    #home .page div .cv2{
+        top: 40%;
+        right: 10%; 
+        width: 100px;
+    }
+}
+
+@media (max-width: 850px) {
+    .menu .mid-bar {
+        font-size: 1.25rem;
+    }
+    .menu .logo {
+        font-size: 1.75rem;
+    }
+    .button {
+        font-size: 1.25rem;
+
+    }
+    #home .page .intro {
+        font-size: 1.25rem;
+    }
+    #home .page div .pic{
+        margin-bottom: -5%;
+    }
+    #about .page .box1 .text {
+        padding-left: 12.5%;
+        font-size: 1.25rem;
+    }
+    #about .page .box .header {
+        font-size: 2rem;
+    }
+    #about .page .box .skill li {
+        font-size: 1.75rem;
+    }
+    #about .page .box .exp .AD {
+        font-size: x-large;
+    }
+    #about .page .box .exp .dot .text {
+        font-size: 1rem;
+        border-left: 3px solid rgb(255, 255, 255);
+        padding-left: 20px;
+        margin-left: 6px;
+    }
+    #projects .page .header {
+        font-size: 2rem;
+    }
+    #contact .overlayText {
+        font-size: 3rem;
+        top: 0;
+    }
+    #contact .page .text {
+        font-size: 1.25rem;
+    }
+    #footer .logo {
+        font-size: 1.5rem;
+    }
+    #footer .bar {
+        font-size: 1.25rem;
+    }
+}
