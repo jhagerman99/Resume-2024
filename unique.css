@@ -135,3 +135,50 @@
     border-bottom: none;
     z-index: 0;
 }
+
+@media (max-width: 1200px) {
+    .container-cr {
+        position: static;
+        z-index: 0 ;
+    }
+    .circle {
+        position: absolute;
+        width: 50%;
+        height: 50%;
+        right:12%;
+        top: 46%;
+    }
+    .circle-outter {
+        background: none;
+        position: absolute;
+        width: 52%;
+        height: 52%;
+        right:10%;
+        top: 42%;
+    }
+}
+@media (max-width: 850px) {
+    .line {
+        height: 8px;
+    }
+
+    .dot {
+        height: 15px;
+        width: 15px;
+    }
+    .overlay-textR {
+        font-size: 1.75rem;
+    }
+    .overlay-textL {
+        font-size: 1.75rem;
+    }
+    .formArea {
+        font-size: 1.5rem;
+    }
+    #contact2 .box {
+        font-size: 1.5rem;
+    }
+    #footer .Thanks {
+        font-size: 2rem;
+    }
+}
